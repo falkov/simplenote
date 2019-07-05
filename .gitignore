@@ -1,0 +1,24 @@
+# - общая часть -
+.DS_Store
+.idea
+
+# - для backend -
+venv
+local_settings.py
+prod_settings.py
+__pycache__/
+*/__pycache__/
+*.py[cod]
+.pyc
+
+# - для frontend -
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
